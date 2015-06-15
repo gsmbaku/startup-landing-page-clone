@@ -28,9 +28,32 @@ div {
 }
 
 .introduction {
-  background-image: url(Thinkful/Landing Project/startup-landing-page-clone/images/first-background copy.jpg)
+  background-image: url(Thinkful/Landing Project/startup-landing-page-clone/images/first-background copy.jpg);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
   height: 45.938rem;
+}
+.content2 {
+  margin:0 auto; width: 970px
+  text-align: center;
+}
+.big-button {
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  padding: 16px 26px;
+  line-height: 1.33;
+  background-color: orange;
+  font-size: 12px;
+  font-color: LightGray;
+  margin-bottom: 10px;
+}
+.cases .devices{
+    width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
 }
