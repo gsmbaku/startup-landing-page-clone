@@ -27,6 +27,11 @@ div {
     color: #333333;
 }
 
+
+#bigImage {
+  width: 100%;
+}
+
 .introduction {
   background-image: url(Thinkful/Landing Project/startup-landing-page-clone/images/first-background copy.jpg);
   background-position: center bottom;
@@ -35,9 +40,13 @@ div {
   height: 45.938rem;
 }
 .content2 {
-  margin:0 auto; width: 970px
+  margin:0 auto; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 970px;
   text-align: center;
 }
+
 .big-button {
   text-shadow: none;
   border-style: none;
@@ -48,7 +57,12 @@ div {
   font-size: 12px;
   font-color: LightGray;
   margin-bottom: 10px;
+  display: block;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .cases .devices{
     width: 33.3333333%;
     display: inline-block;
