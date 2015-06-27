@@ -27,7 +27,11 @@ div {
     color: #333333;
 }
 
-
+.content {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
 #bigImage {
   width: 100%;
 }
@@ -64,8 +68,8 @@ div {
 }
 
 .cases .devices{
-    width: 33.3333333%;
-    display: inline-block;
+    width: 33%;
+    display: inline-flex;
     /* styles to assist with debugging */
     border: 1px solid black;
     box-sizing: border-box;
